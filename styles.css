@@ -22,6 +22,8 @@ button { border: 0; }
 a { color: inherit; }
 em { font-style: normal; }
 img { display: block; max-width: 100%; }
+.company-link { text-decoration-thickness: 1px; text-decoration-color: currentColor; text-underline-offset: .18em; }
+.company-link:hover, .company-link:focus-visible { color: var(--blue); }
 ::selection { background: var(--acid); color: var(--ink); }
 
 .shell { width: var(--shell); margin-inline: auto; }
